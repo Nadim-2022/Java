@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ArraysPart_1/ArraysPart_1.iml" filepath="$PROJECT_DIR$/ArraysPart_1/ArraysPart_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArraysPart_2/ArraysPart_2.iml" filepath="$PROJECT_DIR$/ArraysPart_2/ArraysPart_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basic-Sorting-Algorithms/Basic-Sorting-Algorithms.iml" filepath="$PROJECT_DIR$/Basic-Sorting-Algorithms/Basic-Sorting-Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bit-Manipulation/Bit-Manipulation.iml" filepath="$PROJECT_DIR$/Bit-Manipulation/Bit-Manipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConditionalStatements/ConditionalStatements.iml" filepath="$PROJECT_DIR$/ConditionalStatements/ConditionalStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FunctionsAndMethods/FunctionsAndMethods.iml" filepath="$PROJECT_DIR$/FunctionsAndMethods/FunctionsAndMethods.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loops/Loops.iml" filepath="$PROJECT_DIR$/Loops/Loops.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOPs/OOPs.iml" filepath="$PROJECT_DIR$/OOPs/OOPs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Operators/Operators.iml" filepath="$PROJECT_DIR$/Operators/Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PatternsPart_1/PatternsPart_1.iml" filepath="$PROJECT_DIR$/PatternsPart_1/PatternsPart_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PatternsPart_2/PatternsPart_2.iml" filepath="$PROJECT_DIR$/PatternsPart_2/PatternsPart_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion-Basics-Part-1/Recursion-Basics-Part-1.iml" filepath="$PROJECT_DIR$/Recursion-Basics-Part-1/Recursion-Basics-Part-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion-Basics-Part-2/Recursion-Basics-Part-2.iml" filepath="$PROJECT_DIR$/Recursion-Basics-Part-2/Recursion-Basics-Part-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Two-D-Arrays/Two-D-Arrays.iml" filepath="$PROJECT_DIR$/Two-D-Arrays/Two-D-Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VariablesAndDataTypes/VariablesAndDataTypes.iml" filepath="$PROJECT_DIR$/VariablesAndDataTypes/VariablesAndDataTypes.iml" />
     </modules>
   </component>
 </project>
