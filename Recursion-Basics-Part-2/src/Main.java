@@ -1,17 +1,59 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+    // Tiling Problem
+    public static int tiling(int n){ // 2 x n
+        if(n == 0 || n == 1){
+            return 1;
+        }
+        int fnm1 = tiling(n-1);
+        int fnm2 = tiling(n-2);
+        int totalways = fnm1 + fnm2;
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        return totalways;
+    }
+    public static void rmduplicate(String str, int idx, StringBuilder newString, boolean[] map){
+        if (idx == str.length()){
+            System.out.println(newString);
+            return;
+        }
+        char currentChar = str.charAt(idx);
+        if(map[currentChar - 'a']){
+            rmduplicate(str, idx+1, newString, map);
+        }else{
+            map[currentChar - 'a'] = true;
+            rmduplicate(str, idx+1, newString.append(currentChar), map);
         }
     }
+    public static int friendsParing(int n){
+        if(n == 1 || n == 2){
+            return n;
+        }
+        int fnm1 = friendsParing(n -1);
+        int fnm2 = friendsParing(n-2);
+        int pairWays = (n-1) * fnm2;
+
+        int totalWays = fnm1 + pairWays;
+        return totalWays;
+    }
+
+    public static void printBinString(int n, int lastPlace, String str){
+        if (n == 0){
+            System.out.println(str);
+            return;
+        }
+        printBinString(n-1, 0, str+"0");
+        if(lastPlace == 0){
+            printBinString(n-1, 1, str+"1");
+        }
+    }
+    public static void main(String[] args) {
+        //System.out.println(tiling(2));
+        //String str = "nnaadiimm";
+        //rmduplicate(str, 0, new StringBuilder(), new boolean[26]);
+        //System.out.println(friendsParing(3));
+        printBinString(3, 0, "");
+    }
+
 }
