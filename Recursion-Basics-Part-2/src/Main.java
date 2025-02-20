@@ -48,12 +48,30 @@ public class Main {
             printBinString(n-1, 1, str+"1");
         }
     }
+
+    public static void numberToString(int n){
+
+    }
+    public static void findIndices(int[] array, int key, int n){
+        if(n == array.length){
+            return;
+        }
+
+        if(array[n] == key){
+            System.out.print(n+" ");
+        }
+
+        findIndices(array, key, n+1);
+
+    }
     public static void main(String[] args) {
         //System.out.println(tiling(2));
         //String str = "nnaadiimm";
         //rmduplicate(str, 0, new StringBuilder(), new boolean[26]);
         //System.out.println(friendsParing(3));
-        printBinString(3, 0, "");
+        //printBinString(3, 0, "");
+        int array[] = {2,5,8,2,4,7,2,8,3,2};
+        findIndices(array, 2, 0);
     }
 
 }
